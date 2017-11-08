@@ -39,7 +39,7 @@ Para esto vamos a: </p>
   <li>le asignamos/cambiamos un nombre en <b>Template Name:</b>, este será nuestro ID de sub template</li>
   <li>dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
   <li>Guardamos el contenido con <b>Save template</b></li>
-  <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex junto con el ID/nombre de subtemplate que le habiamos asignado previamente <code><vtex:template id="{tu_ID}"/></code>
+  <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex junto con el ID/nombre de subtemplate que le habiamos asignado previamente <b>vtex:template id="{tu_ID}"</b>
 </ul>
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
