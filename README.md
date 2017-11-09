@@ -14,7 +14,7 @@
     <ol>
       <li><a href="#asignarplaceholder">Asignar un placeholder</a></li>
       <li><a href="#configurarplaceholder">Configurar un placeholder</a></li>
-      <li><a href="typesplaceholder">Tipos de placeholder</a></li>
+      <li><a href="#typesplaceholder">Tipos de placeholder</a></li>
     </ol>
   </li>
   <li>
