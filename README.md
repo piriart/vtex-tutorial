@@ -72,8 +72,9 @@
 
   <h4>Crear/editar un subtemplate:</h4>
 
-  <p>Un subtemplate es un complemento de Vtex, es una parte de código que podemos reutilizar sumandolo dentro de uno/varios templates como para tener que al cambiarlo solo una vez, este cambio se vea replicado en todos los templates que se asignó, sin necesidad
-    de hacerlo uno por uno. Para esto vamos a: </p>
+  <p>Un subtemplate es un complemento de Vtex, es una parte de código que podemos reutilizar sumandolo dentro de uno/varios templates como para tener que al cambiarlo solo una vez, y se vea replicado en todos los templates que se asignó, sin necesidad de
+    hacerlo uno por uno.
+    <br> Para esto vamos a: </p>
   <ul>
     <li>Para crear: <code>CMS > HTML Templates > new template</b></code></li>
     <li>Si sólo queremos editar: <code>CMS > HTML Templates > Sub Templates > new sub template {o bien usamos/cambiamos unos ya existente}</b></code></li>
@@ -81,25 +82,28 @@
     <li>dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
     <li>Guardamos el contenido con <b>Save template</b></li>
 
-    <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex (como tag html <code>< /></code>) junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b></li>
+    <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex (como tag html) junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b></li>
   </ul>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
+
+  <br><br>
+  <h5>Asignado en el template</h5>
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/add-subtemplate.png" />
 
   <hr>
 
   <h2 id="placeholders">Placeholders:</h2>
 
-  <p>Un placeholder, es un complemento de vtex, donde podemos colocar contenido HTML, es parecido al subtemplate (su sintaxis), salvo que tiene otras funcionalidades, que aparecerán una vez colocado en el template (el complemento mencionado), y asignado
-    el template en un layout, en la configuración de este último.</p>
+  <p>Un placeholder, es un complemento de vtex, donde podemos colocar contenido HTML, es parecido al subtemplate (su sintaxis), salvo que tiene otras funcionalidades. Estas aparecerán una vez colocado el complemento mencionado en el template, a continuación
+    es asignado el template en un layout, y en la configuración de este último (pestaña <b>settings</b>) aprecerá el placeholder colocado previamente.</p>
 
   <h4 id="asignarplaceholder">Asignar un placeholder a un template:</h4>
 
   <p>Para asignar un placeholder: </p>
   <ul>
     <li>Desde: <code>CMS > HTML Templates > {template al que se le agrega el placeholder}</b></code></li>
-    <li>Se agrega el complemento en el HTML (como tag html <code>< /></code>): <code>vtex:contentPlaceHolder id="ID_del_placeholder"</code></li>
+    <li>Se agrega el complemento en el HTML (como tag html): <code>vtex:contentPlaceHolder id="ID_del_placeholder"</code></li>
     <li>Guardamos el contenido con <b>Save template</b></li>
   </ul>
 
@@ -107,10 +111,10 @@
 
   <h4 id="configurarplaceholder">Configurar un placeholder:</h4>
 
-  <p>Podemos darle el formato al placeholder asignado</p>
+  <p>Formato del placeholder asignado</p>
   <ul>
-    <li>Vamos al layout que hayamos modificado o bien le aplicamos el template al layout que queremos, y vamos a la pestaña <b>Settings</b></li>
-    <li>Encontramos el placeholder con el <code>ID</code> que le hayamos asignado, añadimos y seleccionamos el tipo de placeholder que será, y guardamos el layout</li>
+    <li>Vamos al layout que hayamos modificado, o bien le aplicamos el template al layout que queremos, y vamos a la pestaña <b>Settings</b></li>
+    <li>Encontramos el placeholder con el <code>ID</code> que le hayamos asignado, añadimos y seleccionamos el tipo de placeholder que necesitemos, y guardamos el layout</li>
     <li>Volvemos a ingresar nuevamente al layout, para que impacte la asignación, y ya podemos editar sobre el mismo</li>
   </ul>
 
@@ -133,7 +137,7 @@
     Setear un tiempo de vida para el placeholder
   </h4>
   <p>
-    Es posbile asignarle una fecha y hora, pudiendo así predefinirlo para que se active y desactive.
+    Es posbile asignarle una fecha y hora, pudiendo así predefinir que el mismo se active y desactive según la necesidad.
   </p>
 
   <br>
@@ -148,18 +152,22 @@
       <br>
     </li>
     <li id="placeholder-coleccion">
-      Placeholder Colección
+      Placeholder Colección, tiene varios seteos:
       <ul>
-        <li>Se asigna el Layout que queremos usar para la colección</li>
-        <li>numero de filas y columnas(cantidad de productos que se van a mostrar)</li>
-        <li>se asigna la lista por ID o nombre (por ejemplo: "productos Cyber ID es: 150")</li>
+        <li>Se asigna el template de vitrina que queremos usar para la colección</li>
+        <li>Número de filas y columnas (cantidad de productos que se van a mostrar)</li>
+        <li>Añadimos contenido, en el botón debajo</li>
+        <li>Le damos un nombre</li>
+        <li>Añadimos la lista de productos por ID o nombre que tengamos (por ejemplo: 150)</li>
+        <li>Dejamos activo el contenido tildando <b>"Active content"</b>, sino este no se mostrará</li>
+        <li>Finalmente presionamos <b>"Update content list"</b>, despues <b>"Save content"</b> y a <b>"Save Settings"</b> arriba a la derecha</li>
       </ul>
       <br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-coleccion.gif" />
       <br>
     </li>
     <li id="placeholder-banner">
-      Placeholder Banner (Permite agregar imágenes/banners/banners Flash, con un tamaño específico)
+      Placeholder Banner (Permite agregar imágenes/banners/Flash, con un tamaño específico)
       <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-banner.gif" />
       <br>
