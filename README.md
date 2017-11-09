@@ -5,6 +5,20 @@
 
 <hr>
 
+<h2>Indice:</h2>
+<ul>
+  <li><a href="#templates">Templates</a></li>
+  <li><a href="#subtemplates">Subemplates</a></li>
+  <li>
+    <a href="#placeholders">Placeholders</a>
+    <ul>
+      <li><a href="#asignarplaceholder"></a>Asignar un placeholder</li>
+      <li><a href="#configurarplaceholder"></a>Configurar un placeholder</li>
+    </ul>
+  </li>
+  <li><a href="#layouts">Layouts</a></li>
+</ul>
+
 <h4>Ingresar al CMS:</h4>
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/go-to-cms.gif" />
 
@@ -40,7 +54,7 @@
   <li>dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
   <li>Guardamos el contenido con <b>Save template</b></li>
 
-  <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b>
+  <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex (como tag html <code>< /></code>) junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b>
 </ul>
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
@@ -69,7 +83,7 @@
 <p>Para asignar un placeholder: </p>
 <ul>
   <li><code>CMS > HTML Templates > {template al que se le agrega el placeholder}</b></code></li>
-  <li>Se agrega el complemento en el HTML: <code>vtex:contentPlaceHolder id="ID_del_placeholder"</code></li>
+  <li>Se agrega el complemento en el HTML (como tag html <code>< /></code>): <code>vtex:contentPlaceHolder id="ID_del_placeholder"</code></li>
   <li>Guardamos el contenido con <b>Save template</b></li>
 </ul>
 
@@ -79,7 +93,7 @@
 
 <p>Podemos darle el formato al placeholder asignado</p>
 <ul>
-   <li>Vamos al layout que hayamos modificado o bien le aplicamos el template al layout que queremos, y vamos a la pestaña <b>Settings</b></li>
+  <li>Vamos al layout que hayamos modificado o bien le aplicamos el template al layout que queremos, y vamos a la pestaña <b>Settings</b></li>
   <li>Encontramos el placeholder con el <code>ID</code> que le hayamos asignado, añadimos y seleccionamos el tipo de placeholder que será, y guardamos el layout</li>
   <li>volvemos a ingresar nuevamente al layout, para que impacte la asignación, y ya podemos editar sobre el mismo</li>
 </ul>
@@ -104,4 +118,3 @@
 </ul>
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-layout.gif" />
-
