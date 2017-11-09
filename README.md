@@ -24,7 +24,7 @@
 
 <hr>
 
-<h2>Templates:</h2>
+<h2 id="templates">Templates:</h2>
 
 <h4>Crear/editar un template:</h4>
 
@@ -41,7 +41,7 @@
 
 <hr>
 
-<h2>Subtemplates:</h2>
+<h2 id="subtemplates">Subtemplates:</h2>
 
 <h4>Crear/editar un subtemplate:</h4>
 
@@ -61,7 +61,7 @@
 
 <hr>
 
-<h2>Placeholders:</h2>
+<h2 id="placeholders">Placeholders:</h2>
 
 <p>Un placeholder, es un complemento de vtex, donde podemos colocar contenido HTML, es parecido al subtemplate (su sintaxis), salvo que tiene otras funcionalidades, que aparecerán una vez colocado en el template (el complemento mencionado), y asignado el
   template en un layout, en la configuración de este último. De allí podemos setear el placeholder para que funcione de determinada manera. Como es el caso de los siguientes (los más utilizados):
@@ -78,7 +78,7 @@
   </ul>
 </p>
 
-<h4>Asignar un placeholder a un template:</h4>
+<h4 id="asignarplaceholder">Asignar un placeholder a un template:</h4>
 
 <p>Para asignar un placeholder: </p>
 <ul>
@@ -89,7 +89,7 @@
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
 
-<h4>Configurar un placeholder:</h4>
+<h4 id="configurarplaceholder">Configurar un placeholder:</h4>
 
 <p>Podemos darle el formato al placeholder asignado</p>
 <ul>
@@ -102,7 +102,7 @@
 
 <hr>
 
-<h2>Layouts</h2>
+<h2 id="layouts">Layouts</h2>
 
 <h4>Crear/editar un Layout:</h4>
 
