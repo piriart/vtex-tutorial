@@ -8,7 +8,9 @@
 <h2>Indice:</h2>
 <ul>
   <li><a href="#ingresaralcms">Ingresar al CMS</a></li>
+  <li><a href="#subircontenido">Subir imágenes / CSS / JS</a></li>
   <li><a href="#templates">Templates</a></li>
+  <li><a href="#templatesvitrina">Templates de vitrina</a></li>
   <li><a href="#subtemplates">Subtemplates</a></li>
   <li>
     <a href="#placeholders">Placeholders</a>
@@ -43,8 +45,37 @@
 
   <hr />
 
-  <h4 id="ingresaralcms">Ingresar al CMS:</h4>
+  <h2 id="ingresaralcms">
+    Ingresar al CMS:
+  </h2>
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/go-to-cms.gif" />
+
+  <hr>
+
+  <h2 id="subircontenido">
+    Subir contenido CSS / JS / Imágenes
+  </h2>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/subircontenido.gif" />
+
+  <hr>
+
+  <h2 id="templatesvitrina">
+    Templates de vitrina
+  </h2>
+  <p>
+    Podemos editar/crear la manera en que se muestran las vitrinas, su contenido HTML. <br> Tiene variables que le podemos pasar al HTML, para que itere sobre ellas al imprimir la vitrina en pantalla.
+  </p>
+  <ul>
+    <li>Vas a: <code>Shelves Templates > new template (o bien editar uno existente)</code></li>
+    <li>Asignamos el name del template</li>
+    <li>Asignamos clase del ul que va a contener todo</li>
+    <li>Editamos el HTML, cambiando/creando su estructura</li>
+    <li>Asignamos variables sobre las que va a iterar (por ej: $product.Uri == URL de cada producto)</li>
+    <li>Finalmente clickeamos a <b>"Save Template"</b></li>
+  </ul>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/templatesvitrina.png" />
 
   <hr>
 
