@@ -54,6 +54,7 @@
   </ul>
 
   <br>
+  <br>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-template.gif" />
 
@@ -118,11 +119,11 @@
 
   <ul>
     <li id="placeholder-html">
-      HTML - (Permite agregar codigo HTML) <br><br>
+      Placeholder HTML - (Permite agregar codigo HTML) <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-html.gif" />
     </li>
     <li id="placeholder-coleccion">
-      Colección
+      Placeholder Colección
       <ul>
         <li>Se asigna el Layout que queremos usar para la coleccion</li>
         <li>numero de filas y columnas(cantidad de productos que se van a mostrar)</li>
@@ -132,7 +133,7 @@
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-coleccion.gif" />
     </li>
     <li id="placeholder-banner">
-      Banner (Permite agregar imágenes/banners/banners Flash, con un tamaño específico)
+      Placeholder Banner (Permite agregar imágenes/banners/banners Flash, con un tamaño específico)
       <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-banner.gif" />
     </li>
