@@ -11,13 +11,15 @@
   <li><a href="#subtemplates">Subemplates</a></li>
   <li>
     <a href="#placeholders">Placeholders</a>
-    <ul>
-      <li><a href="#asignarplaceholder"></a>Asignar un placeholder</li>
-      <li><a href="#configurarplaceholder"></a>Configurar un placeholder</li>
-    </ul>
+    <ol>
+      <li><a href="#asignarplaceholder">Asignar un placeholder</a></li>
+      <li><a href="#configurarplaceholder">Configurar un placeholder</a></li>
+    </ol>
   </li>
   <li><a href="#layouts">Layouts</a></li>
 </ul>
+
+<hr />
 
 <h4>Ingresar al CMS:</h4>
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/go-to-cms.gif" />
