@@ -23,6 +23,7 @@
           <li><a href="#placeholder-banner">Placeholder banner</a></li>
         </ul>
       </li>
+      <li><a href="#timeplaceholder">Asignar un tiempo de vida a un placeholder</a></li>
       </lu>
   </li>
   <li>
@@ -71,8 +72,8 @@
 
   <h4>Crear/editar un subtemplate:</h4>
 
-  <p>Un subtemplate es un complemento de vtex, ante la necesidad de usar una especie de include, una parte de codigo q podemos reutilizar poniéndosela dentro de uno/varios templates como para tener que cambiarlo solo una vez y este cambio se vea replicado
-    en todos los templates, sin necesidad de hacerlo uno por uno. Para esto vamos a: </p>
+  <p>Un subtemplate es un complemento de Vtex, es una parte de código que podemos reutilizar sumandolo dentro de uno/varios templates como para tener que al cambiarlo solo una vez, este cambio se vea replicado en todos los templates que se asignó, sin necesidad
+    de hacerlo uno por uno. Para esto vamos a: </p>
   <ul>
     <li>Para crear: <code>CMS > HTML Templates > new template</b></code></li>
     <li>Si sólo queremos editar: <code>CMS > HTML Templates > Sub Templates > new sub template {o bien usamos/cambiamos unos ya existente}</b></code></li>
@@ -110,32 +111,46 @@
   <ul>
     <li>Vamos al layout que hayamos modificado o bien le aplicamos el template al layout que queremos, y vamos a la pestaña <b>Settings</b></li>
     <li>Encontramos el placeholder con el <code>ID</code> que le hayamos asignado, añadimos y seleccionamos el tipo de placeholder que será, y guardamos el layout</li>
-    <li>volvemos a ingresar nuevamente al layout, para que impacte la asignación, y ya podemos editar sobre el mismo</li>
+    <li>Volvemos a ingresar nuevamente al layout, para que impacte la asignación, y ya podemos editar sobre el mismo</li>
   </ul>
 
   <br>
+
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-placeholder.gif" />
 
-  <h4 id="typesplaceholder">Tipos de placeholder</h4>
+  <h4 id="typesplaceholder">
+    Tipos de placeholder
+  </h4>
   <p>
-    Podemos setear el placeholder para que funcione de determinada manera, según el tipo que le asignemos, también a los placeholder se puede asignar con fecha de inicio y finalización, pudiendo así darle una fecha y horario predefinido. Los placeholders
-    más utilizados son:
+    Podemos settear el placeholder para que funcione de distintas maneras.
   </p>
 
+  <br>
+
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/types-placeholder.png" />
+
+  <h4 id="timeplaceholder">
+    Setear un tiempo de vida para el placeholder
+  </h4>
+  <p>
+    Es posbile asignarle una fecha y hora, pudiendo así predefinirlo para que se active y desactive.
+  </p>
+
+  <br>
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/time-placeholder.png" />
 
   <br>
 
   <ul>
     <li id="placeholder-html">
-      Placeholder HTML - (Permite agregar codigo HTML) <br><br>
+      Placeholder HTML - (Permite agregar código HTML) <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-html.gif" />
       <br>
     </li>
     <li id="placeholder-coleccion">
       Placeholder Colección
       <ul>
-        <li>Se asigna el Layout que queremos usar para la coleccion</li>
+        <li>Se asigna el Layout que queremos usar para la colección</li>
         <li>numero de filas y columnas(cantidad de productos que se van a mostrar)</li>
         <li>se asigna la lista por ID o nombre (por ejemplo: "productos Cyber ID es: 150")</li>
       </ul>
@@ -181,7 +196,7 @@
   <br>
 
   <h4 id="asignaruntemplatealayout">
-    Asignandole un template a un Layout:
+    Asignándole un template a un Layout:
   </h4>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-layout.gif" />
@@ -192,7 +207,7 @@
     Asignar una colección a una carpeta
   </h4>
   <p>
-    Es posible asignar una colección de productos a una carpeta para que levante como un resultado de búsqueda el layoout interno.
+    Es posible asignar una colección de productos a una carpeta para que levante como un resultado de búsqueda el layout interno.
   </p>
 
   <br>
@@ -207,7 +222,7 @@
 
   <ul>
     <li><b>IMPORTANTE!</b> si el layout queda con el checkbox tildado: <code>Default page:</code>(además de <b>Active:</b> que viene tildado por defecto) queda pública la URL! </li>
-    <li>Si quisieramos ver el contenido de un layout que NO és público(sin la casilla Default quede tildada), lo podemos ver por el <code>lid</code> que se encuentra arriba del <b>Layout name:</b> (en el caso del video seria: <code>http://www.fravega.com/<b>?lid=724ebe5e-a94a-47b2-8fd6-bf52d259535b</b></code>)
+    <li>Si quisiéramos ver el contenido de un layout que NO es público(sin la casilla Default quede tildada), lo podemos ver por el <code>lid</code> que se encuentra arriba del <b>Layout name:</b> (en el caso del video seria: <code>http://www.fravega.com/<b>?lid=724ebe5e-a94a-47b2-8fd6-bf52d259535b</b></code>)
       <li>Guardamos el contenido con <b>Save Layout</b></li>
   </ul>
   <br>
