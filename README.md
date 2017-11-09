@@ -7,6 +7,7 @@
 
 <h2>Indice:</h2>
 <ul>
+  <li><a href="#ingresaralcms">Ingresar al CMS</a></li>
   <li><a href="#templates">Templates</a></li>
   <li><a href="#subtemplates">Subtemplates</a></li>
   <li>
@@ -34,7 +35,7 @@
 
   <hr />
 
-  <h4>Ingresar al CMS:</h4>
+  <h4 id="ingresaralcms">Ingresar al CMS:</h4>
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/go-to-cms.gif" />
 
   <hr>
@@ -51,6 +52,8 @@
     <li>dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
     <li>Guardamos el contenido con <b>Save template</b></li>
   </ul>
+
+  <br>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-template.gif" />
 
@@ -69,10 +72,11 @@
     <li>dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
     <li>Guardamos el contenido con <b>Save template</b></li>
 
-    <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex (como tag html <code>< /></code>) junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b>
+    <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex (como tag html <code>< /></code>) junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b></li>
   </ul>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/add-subtemplate.png" />
 
   <hr>
 
@@ -147,12 +151,13 @@
     <li>Dentro del select <b>Template:</b> seleccionamos/cambiamos el template para asignarselo</li>
     <li>Podemos tambien si fuera necesario asignarle clases al body en <b>Body Class:</b> (por defecto siempre ponemos <code>title_seo</code>, y cualquier otra si fuera necesario)</li>
   </ul>
+  <br>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-layout.gif" />
 
   <h4 id="entornos">
-  Entornos de layout:
-</h4>
+    Entornos de layout:
+  </h4>
 
   <p>Los layout pueden mostrarse de manera pública, o de forma privada solo pegando el código LID</p>
 
