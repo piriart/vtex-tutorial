@@ -9,6 +9,7 @@
 <ul>
   <li><a href="#ingresaralcms">Ingresar al CMS</a></li>
   <li><a href="#subircontenido">Subir imágenes / CSS / JS</a></li>
+  <li><a href="#redirect">Redireccionamiento de URLs</a></li>
   <li><a href="#templates">Templates</a></li>
   <li><a href="#templatesvitrina">Templates de vitrina</a></li>
   <li><a href="#subtemplates">Subtemplates</a></li>
@@ -57,6 +58,18 @@
   </h2>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/subircontenido.gif" />
+
+  <hr>
+
+  <h2 id="redirect">
+    Redireccionamiento de URLs
+  </h2>
+  <p>Podemos redirigir urls desde <b>URL Builder</b>, creamos un redireccionamiento en <b>Add</b>, o bien seleccionamos una existente para hacer su redirección. <br/> Es posible también asignarle un tiempo de vida a la redirección (fecha y hora de inicio
+    y finalización); o bien importar/exportar una lista de urls en formato .xls.
+
+  </p>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/redirect.png" />
 
   <hr>
 
