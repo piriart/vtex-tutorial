@@ -160,35 +160,38 @@
     <li>Dentro del select <b>Template:</b> seleccionamos/cambiamos el template para asignarselo</li>
     <li>Podemos tambien si fuera necesario asignarle clases al body en <b>Body Class:</b> (por defecto siempre ponemos <code>title_seo</code>, y cualquier otra si fuera necesario)</li>
   </ul>
+  <br>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-layout.png" />
 
   <br>
 
-  <h5 id="crearCarpeta">
-    Creando una carpeta Layout
-  </h5>
-
-  <br>
+  <h4 id="crearCarpeta">
+    Creando una carpeta:
+  </h4>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/new-folder.gif" />
 
-  <br><br>
-
-  <h5 id="asignaruntemplatealayout">
-    Asignandole un template a un Layout
-  </h5>
-
   <br>
+
+  <h4 id="asignaruntemplatealayout">
+    Asignandole un template a un Layout:
+  </h4>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-layout.gif" />
 
+  <br>
 
-  <br><br>
-
-  <h4 id="assignarcoleccionacarpeta">Asignar una colección a una carpeta (tiene que ser un resultado de búsqueda el  template)</h4>
+  <h4 id="assignarcoleccionacarpeta">
+    Asignar una colección a una carpeta
+  </h4>
+  <p>
+    Es posible asignar una colección de productos a una carpeta para que levante como un resultado de búsqueda el layoout interno.
+  </p>
 
   <br>
 
-  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/add-colection-to-folder.gif" />
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/add-collection-to-folder.png" />
 
   <h4 id="entornos">
     Entornos de layout:
