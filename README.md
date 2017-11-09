@@ -75,7 +75,7 @@
     <li>Finalmente clickeamos a <b>"Save Template"</b></li>
   </ul>
 
-  <br><br>
+  <br>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/templatesvitrina.png" />
 
