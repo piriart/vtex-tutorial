@@ -97,7 +97,7 @@
 
   <p>Para asignar un placeholder: </p>
   <ul>
-    <li><code>CMS > HTML Templates > {template al que se le agrega el placeholder}</b></code></li>
+    <li>Desde: <code>CMS > HTML Templates > {template al que se le agrega el placeholder}</b></code></li>
     <li>Se agrega el complemento en el HTML (como tag html <code>< /></code>): <code>vtex:contentPlaceHolder id="ID_del_placeholder"</code></li>
     <li>Guardamos el contenido con <b>Save template</b></li>
   </ul>
@@ -124,25 +124,30 @@
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/types-placeholder.png" />
 
+  <br>
+
   <ul>
     <li id="placeholder-html">
       Placeholder HTML - (Permite agregar codigo HTML) <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-html.gif" />
+      <br>
     </li>
     <li id="placeholder-coleccion">
       Placeholder Colección
       <ul>
         <li>Se asigna el Layout que queremos usar para la coleccion</li>
         <li>numero de filas y columnas(cantidad de productos que se van a mostrar)</li>
-        <li>se asigna la lista por ID(más común, por ejemplo: "productos Cyber ID es: 150") o nombre</li>
+        <li>se asigna la lista por ID o nombre (por ejemplo: "productos Cyber ID es: 150")</li>
       </ul>
       <br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-coleccion.gif" />
+      <br>
     </li>
     <li id="placeholder-banner">
       Placeholder Banner (Permite agregar imágenes/banners/banners Flash, con un tamaño específico)
       <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-banner.gif" />
+      <br>
     </li>
   </ul>
 
@@ -152,11 +157,12 @@
 
   <h4 id="crearLayout">Crear/editar un Layout:</h4>
 
-  <p>El layout, es donde se va a asignar el template HTML y nos dara una URL (pública o privada)</p>
-  Desde los Layout podemos:
+  <p>
+    El layout, es donde se va a asignar el template HTML y nos dara una URL (pública o privada).<br/> Desde los Layout podemos:
+  </p>
 
   <ul>
-    <li><code>CMS > Sites and channels > fravega (o valkiriaqa) > / > "carpeta en donde queremos crear/cambiar layout" </b></code></li>
+    <li>Desde: <code>CMS > Sites and channels > fravega (o valkiriaqa) > / > "carpeta en donde queremos crear/cambiar layout" </b></code></li>
     <li>Dentro del select <b>Template:</b> seleccionamos/cambiamos el template para asignarselo</li>
     <li>Podemos tambien si fuera necesario asignarle clases al body en <b>Body Class:</b> (por defecto siempre ponemos <code>title_seo</code>, y cualquier otra si fuera necesario)</li>
   </ul>
