@@ -42,6 +42,7 @@
       <li><a href="#entornos">Entorno público y privado(LID:)</a></li>
     </ul>
   </li>
+  <li><a href="#collections">Collecciones</a></li>
   </ul>
 
   <hr />
@@ -281,4 +282,18 @@
   </ul>
   <br>
 
-  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/show-lid.png" />
+  <h2 id="collections">Colecciones</h2>
+  <p>
+    Se crean colecciones de productos para asignarsela a las vitrinas o carpeta con resultados de búsqueda.<br>
+    <small>Para front, nos interesa el ID y si tiene el Highlight (cucarda)</small>
+  </p>
+  <ul>
+    <li>En <code>CMS > Product Clusters (Collections) > Editamos una existente</code></li>
+    <li><code>Product Cluster Id:</code> es el ID de nuestra colleción (para pasarsela a una vitrina o carpeta con resultado de búsqueda)</li>
+    <li>Si, <code>Highlight</code> está tildado aparecerá una cucarda en todas los productos de esa vitrina</li>
+    <li>El <code>Name:</code> es justamente el nombre de la clase que aparecerá en la cucarda, si tiene espacios los convierte a guiones medios (ej: "nombre de cucarda" => "nombre-de-vitrina")</li>
+    <li>Si, <code>Searchable</code> está tildado aparecerá una en los resultados de búsqueda</li>
+    <li>Es tambien programable el ciclo de vida de la colección, fecha/hora de activación y desactivación</li>
+  </ul>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/collections.png" />
