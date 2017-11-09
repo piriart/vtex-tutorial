@@ -28,6 +28,13 @@
   <li>
     <a href="#layouts">Layouts</a>
     <ul>
+      <li><a href="#crearLayout">Crear un nuevo layout</a></li>
+      <li><a href="#asignaruntemplatealayout">Asignar un template al layout</a></li>
+      <li><a href="#crearCarpeta">Crear una nueva carpeta para un layout</a>
+        <ul>
+          <li><a href="#assignarcoleccionacarpeta">Asignar colección a una carpeta tipo de resultado de búsqueda</a></li>
+        </ul>
+      </li>
       <li><a href="#entornos">Entorno público y privado(LID:)</a></li>
     </ul>
   </li>
@@ -143,18 +150,45 @@
 
   <h2 id="layouts">Layouts</h2>
 
-  <h4>Crear/editar un Layout:</h4>
+  <h4 id="crearLayout">Crear/editar un Layout:</h4>
 
-  <p>El layout, es donde se va a asignar el template y poder visualizarlo con su respectiva URL:</p>
+  <p>El layout, es donde se va a asignar el template HTML y nos dara una URL (pública o privada)</p>
+  Desde los Layout podemos:
+
   <ul>
-    <li><code>CMS > Sites and channels > fravega (o valkiriaqa) > / > "carpeta en donde queremos crear/cambiar el layout" </b></code></li>
-    <li>Le asignamos un nombre en <b>Layout name:</b></li>
+    <li><code>CMS > Sites and channels > fravega (o valkiriaqa) > / > "carpeta en donde queremos crear/cambiar layout" </b></code></li>
     <li>Dentro del select <b>Template:</b> seleccionamos/cambiamos el template para asignarselo</li>
     <li>Podemos tambien si fuera necesario asignarle clases al body en <b>Body Class:</b> (por defecto siempre ponemos <code>title_seo</code>, y cualquier otra si fuera necesario)</li>
   </ul>
+
+  <br>
+
+  <h5 id="crearCarpeta">
+    Creando una carpeta Layout
+  </h5>
+
+  <br>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/new-folder.gif" />
+
+  <br><br>
+
+  <h5 id="asignaruntemplatealayout">
+    Asignandole un template a un Layout
+  </h5>
+
   <br>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-layout.gif" />
+
+
+  <br><br>
+
+  <h4 id="assignarcoleccionacarpeta">Asignar una colección a una carpeta (tiene que ser un resultado de búsqueda el  template)</h4>
+
+  <br>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/add-colection-to-folder.gif" />
 
   <h4 id="entornos">
     Entornos de layout:
