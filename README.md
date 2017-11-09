@@ -102,6 +102,7 @@
     <li>volvemos a ingresar nuevamente al layout, para que impacte la asignación, y ya podemos editar sobre el mismo</li>
   </ul>
 
+  <br>
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
 
   <h4 id="typesplaceholder">Tipos de placeholder</h4>
@@ -114,7 +115,7 @@
 
   <ul>
     <li id="placeholder-html">
-      HTML - (Permite agregar codigo HTML) <br>
+      HTML - (Permite agregar codigo HTML) <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-html.gif" />
     </li>
     <li id="placeholder-coleccion">
@@ -129,7 +130,7 @@
     </li>
     <li id="placeholder-banner">
       Banner (Permite agregar imágenes/banners/banners Flash, con un tamaño específico)
-      <br>
+      <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-banner.gif" />
     </li>
   </ul>
@@ -149,7 +150,7 @@
   </ul>
 
   <h4 id="entornos">
-  Entornos de layout
+  Entornos de layout:
 </h4>
 
   <p>Los layout pueden mostrarse de manera pública, o de forma privada solo pegando el código LID</p>
@@ -159,5 +160,6 @@
     <li>Si quisieramos ver el contenido de un layout que NO és público(sin la casilla Default quede tildada), lo podemos ver por el <code>lid</code> que se encuentra arriba del <b>Layout name:</b> (en el caso del video seria: <code>http://www.fravega.com/<b>?lid=724ebe5e-a94a-47b2-8fd6-bf52d259535b</b></code>)
       <li>Guardamos el contenido con <b>Save Layout</b></li>
   </ul>
+  <br>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/show-lid.png" />
