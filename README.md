@@ -176,7 +176,7 @@
 
   <hr>
 
-  <h2 id="layouts">Layouts</h2>
+  <h2 id="layouts">Layouts / Carpetas</h2>
 
   <h4 id="crearLayout">Crear/editar un Layout:</h4>
 
