@@ -90,7 +90,6 @@
     <li>Guardamos el contenido con <b>Save template</b></li>
   </ul>
 
-  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/add-placeholder.png" />
 
   <h4 id="configurarplaceholder">Configurar un placeholder:</h4>
@@ -103,7 +102,7 @@
   </ul>
 
   <br>
-  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-placeholder.gif" />
 
   <h4 id="typesplaceholder">Tipos de placeholder</h4>
   <p>
@@ -148,6 +147,8 @@
     <li>Dentro del select <b>Template:</b> seleccionamos/cambiamos el template para asignarselo</li>
     <li>Podemos tambien si fuera necesario asignarle clases al body en <b>Body Class:</b> (por defecto siempre ponemos <code>title_seo</code>, y cualquier otra si fuera necesario)</li>
   </ul>
+
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-layout.gif" />
 
   <h4 id="entornos">
   Entornos de layout:
