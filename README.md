@@ -99,17 +99,27 @@
 
   <h4 id="typesplaceholder">Tipos de placeholder</h4>
   <p>
-    Podemos setear el placeholder para que funcione de determinada manera. Como es el caso de los siguientes (los más utilizados):
+    Podemos setear el placeholder para que funcione de determinada manera, según el tipo que le asignemos, también a los placeholder se puede asignar con fecha de inicio y finalización, pudiendo así darle una fecha y horario predefinido. Los placeholders
+    más utilizados son:
+
   </p>
   <ul>
     <li>
       HTML - (Permite agregar codigo HTML)
+      <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-html.gif" />
     </li>
     <li>
-      Colección (permite agregar una lista de productos por ID, por ejemplo: "Todos los productos - ID es: 140")
+      Colección
+      <ul>
+        <li>Se asigna el Layout que queremos usar para la coleccion</li>
+        <li>numero de filas y columnas(cantidad de productos que se van a mostrar)</li>
+        <li>se asigna la lista por ID(más común, por ejemplo: "productos Cyber ID es: 150") o nomnbre</li>
+      </ul>
+      <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-coleccion.gif" />
     </li>
     <li>
       Banner (Permite agregar imágenes/banners/banners Flash, con un tamaño especifico)
+      <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-banner.gif" />
     </li>
   </ul>
 </p>
