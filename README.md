@@ -121,14 +121,12 @@
 
   <p>Un subtemplate es un complemento de Vtex, es una parte de código que podemos reutilizar sumandolo dentro de uno/varios templates como para tener que al cambiarlo solo una vez, y se vea replicado en todos los templates que se asignó, sin necesidad de
     hacerlo uno por uno.
-    <br> Para esto vamos a: </p>
+  </p>
   <ul>
-    <li>Para crear: <code>CMS > HTML Templates > new template</b></code></li>
-    <li>Si sólo queremos editar: <code>CMS > HTML Templates > Sub Templates > new sub template {o bien usamos/cambiamos unos ya existente}</b></code></li>
+    <li>Para esto vamos a:<code>CMS > HTML Templates > Sub Templates > new sub template {o bien usamos/cambiamos unos ya existente}</b></code></li>
     <li>le asignamos/cambiamos un nombre en <b>Template Name:</b>, este será nuestro ID de sub template</li>
     <li>dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
     <li>Guardamos el contenido con <b>Save template</b></li>
-
     <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex (como tag html) junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b></li>
   </ul>
 
