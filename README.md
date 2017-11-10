@@ -320,12 +320,13 @@
   Checkout
 </h2>
 <p>
-  El checkout en su mayor medida es inyectado por JS, no muchas partes hay posibilidad de meter HTML, salvo algunos pequeños complementos nativos de Vtex.
+  El checkout en su mayor medida es inyectado por JS, pocas partes hay posibilidad de sumar HTML, salvo algunos pequeños componentes nativos de Vtex.
 </p>
 <ul>
   <li>
-    Para editar el checkout, vamos a: <code>Portal > Default (el icono de la ruedita) > Pestaña <b>Código</b> > dentro de Archivos o Templates</code>. <br> Hay instancias dentro de esta página que es posible editar alguna parte del HTML, desde <b>Templates:</b>    como es el caso de: <code>Header => checkout-header, footer => checkout-footer</code>.
+    Para editar el checkout, vamos a: <code>Portal > Default (el icono de la ruedita) > Pestaña <b>Código</b> > dentro de Archivos o Templates</code>
   </li>
+  <li>Hay instancias dentro de esta página que es posible editar alguna parte del HTML, desde <b>Templates:</b> como es el caso de: <code>Header => checkout-header, footer => checkout-footer</code></li>
 </ul>
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/go-to-checkout.gif" />
@@ -335,7 +336,9 @@
 <p>Dentro del checkout, para cambiar algo de estilos o del contenido interno/funcionlidad, hay un css y js, dentro de: <code>checkout5-custom.css y checkout5-custom.css</code>. <br> Seleccionamos el archivo a modificar editamos o pegamos el código en el
   box que aparece a la izquierda de la pantalla, y presionar <b>Guardar</b>.</p>
 
-<br><br>
+<img src="https://github.com/fravega/vtex-tutorial/blob/master/images/edit-content-checkout.png" />
+
+<br>
 
 <h4 id="thanks">Thanks Page</h4>
 
