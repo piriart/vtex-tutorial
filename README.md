@@ -346,8 +346,6 @@
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/edit-content-checkout.png" />
 
-<br>
-
 <h4 id="thanks">Thanks Page</h4>
 
 <p>Al terminar de hacer una compra en el checkout, al usuario le apaecerá una nueva instancia <b>Página de Gracias</b>.</p>
