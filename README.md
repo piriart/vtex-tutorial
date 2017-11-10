@@ -326,15 +326,23 @@
   <li>
     Para editar el checkout, vamos a: <code>Portal > Default (el icono de la ruedita) > Pestaña <b>Código</b> > dentro de Archivos o Templates</code>
   </li>
-  <li>Hay instancias dentro de esta página que es posible editar alguna parte del HTML, desde <b>Templates:</b> como es el caso de: <code>Header => checkout-header, footer => checkout-footer</code></li>
+  <li>Hay instancias dentro de esta página que es posible editar alguna parte del HTML, desde <b>Templates:</b> como es el caso de:
+    <ul>
+      <li>Header => checkout-header</li>
+      <li>footer => checkout-footer</li>
+    </ul>
+  </li>
 </ul>
+
+
+<br>
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/go-to-checkout.gif" />
 
 <h4 id="estilos">CSS / JS</h4>
 
-<p>Dentro del checkout, para cambiar algo de estilos o del contenido interno/funcionlidad, hay un css y js, dentro de: <code>checkout5-custom.css y checkout5-custom.css</code>. <br> Seleccionamos el archivo a modificar editamos o pegamos el código en el
-  box que aparece a la izquierda de la pantalla, y presionar <b>Guardar</b>.</p>
+<p>Dentro del checkout, para cambiar algo de estilos o del contenido interno/funcionlidad, hay un css y js, dentro de: <code>checkout5-custom.css y checkout5-custom.js</code>. <br> Seleccionamos el archivo a modificar editamos o pegamos el código en el box
+  que aparece a la izquierda de la pantalla, y presionar <b>Guardar</b>.</p>
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/edit-content-checkout.png" />
 
@@ -342,9 +350,23 @@
 
 <h4 id="thanks">Thanks Page</h4>
 
-<p>Al terminar de hacer una compra en el checkout, al usuario le apaecerá una nueva instancia <b>Página de Gracias</b>, para editar estilos es con el mismo CSS de checkout (<code>checkout5-custom.css</code>), para cambiar funcionalidad esto se realiza en
-  <code>checkout-confirmation-custom.js</code>. <br> Hay instancias dentro de esta página que es posible editar alguna parte del HTML, desde <b>Templates:</b> como es el caso de: <code>Header => checkout-confirmation-header, footer => checkout-confirmation-footer, instancia de radio buttons => checkout-confirmation-top, y crosselling (sugeridos) =>  checkout-confirmation-bottom</code>.
-</p>
+<p>Al terminar de hacer una compra en el checkout, al usuario le apaecerá una nueva instancia <b>Página de Gracias</b>.</p>
+
+<ul>
+  <li>Para editar estilos es con el mismo CSS de checkout (<code>checkout5-custom.css</code>)</li>
+  <li>Para cambiar funcionalidad esto se realiza en <code>checkout-confirmation-custom.js</code></li>
+  <li>
+    Hay instancias dentro de esta página que es posible editar alguna parte del HTML, desde <b>Templates:</b> como es el caso de:
+    <ul>
+      <li>Header => checkout-confirmation-header</li>
+      <li>footer => checkout-confirmation-footer</li>
+      <li>instancia de radio buttons => checkout-confirmation-top</li>
+      <li>crosselling (sugeridos) => checkout-confirmation-bottom</li>
+    </ul>
+  </li>
+</ul>
+
+<br>
 
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/thanks-page-1.png" />
 <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/thanks-page-2.png" />
