@@ -119,29 +119,32 @@
 
   <h4>Crear/editar un subtemplate:</h4>
 
-  <p>Un subtemplate es un complemento de Vtex, es una parte de código que podemos reutilizar sumandolo dentro de uno/varios templates como para tener que al cambiarlo solo una vez, y se vea replicado en todos los templates que se asignó, sin necesidad de
-    hacerlo uno por uno.
+  <p>Un subtemplate es un complemento de Vtex que podemos reutilizar, sumandolo en el interior de uno o varios templates, al hacer un cambio en elsubtemplate, se verá replicado en todos los templates que se asignó, sin necesidad de hacerlo uno por uno.
   </p>
   <ul>
     <li>Para esto vamos a:<code>CMS > HTML Templates > Sub Templates > new sub template {o bien usamos/cambiamos unos ya existente}</b></code></li>
-    <li>le asignamos/cambiamos un nombre en <b>Template Name:</b>, este será nuestro ID de sub template</li>
-    <li>dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
+    <li>Le asignamos/cambiamos un nombre en <b>Template Name:</b>, este será nuestro ID de sub template para usarlo en el complemento</li>
+    <li>Dentro del box <b>Template XHTML:</b> colocamos/cambiamos el contenido HTML</li>
     <li>Guardamos el contenido con <b>Save template</b></li>
     <li>Para asignarlo vamos a un <b>Template</b> que queramos, y usamos el complemento de vtex (como tag html) junto con el ID/nombre de subtemplate que le habíamos asignado previamente <b>vtex:template id="{tu_ID}"</b></li>
   </ul>
 
+  <br>
+  <br>
+  <br>
+
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-subtemplate.gif" />
 
-  <br><br>
-  <h5>Asignado en el template</h5>
+  <br>
+  <h4>Asignado en el template</h4>
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/add-subtemplate.png" />
 
   <hr>
 
   <h2 id="placeholders">Placeholders:</h2>
 
-  <p>Un placeholder, es un complemento de vtex, donde podemos colocar contenido HTML, es parecido al subtemplate (su sintaxis), salvo que tiene otras funcionalidades. Estas aparecerán una vez colocado el complemento mencionado en el template, a continuación
-    es asignado el template en un layout, y en la configuración de este último (pestaña <b>settings</b>) aprecerá el placeholder colocado previamente.</p>
+  <p>Un placeholder, es un complemento de vtex, donde podemos colocar contenido HTML, es parecido al subtemplate (su sintaxis), salvo que tiene otras funcionalidades.<br> Al colocarlo en el HTML este aparecerá en la configuración del layout a que se quiera
+    asignar el tamplate con ese placeholder (pestaña <b>settings</b> del layout).</p>
 
   <h4 id="asignarplaceholder">Asignar un placeholder a un template:</h4>
 
@@ -188,13 +191,13 @@
   <br>
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/time-placeholder.png" />
 
-  <br>
+  <br><br>
 
   <ul>
     <li id="placeholder-html">
       Placeholder HTML - (Permite agregar código HTML) <br><br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-html.gif" />
-      <br>
+      <br><br>
     </li>
     <li id="placeholder-coleccion">
       Placeholder Colección, tiene varios seteos:
@@ -209,7 +212,7 @@
       </ul>
       <br>
       <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/placeholder-coleccion.gif" />
-      <br>
+      <br><br>
     </li>
     <li id="placeholder-banner">
       Placeholder Banner (Permite agregar imágenes/banners/Flash, con un tamaño específico)
@@ -236,6 +239,10 @@
   </ul>
   <br>
 
+  <h4 id="crearCarpeta">
+    Creando una layout:
+  </h4>
+
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-layout.png" />
 
   <br>
@@ -248,9 +255,9 @@
 
   <br>
 
-  <h4 id="asignaruntemplatealayout">
+  <h3 id="asignaruntemplatealayout">
     Asignándole un template a un Layout:
-  </h4>
+  </h3>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/create-new-layout.gif" />
 
@@ -280,10 +287,12 @@
   </ul>
   <br>
 
+  <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/show-lid.png" />
+
   <h2 id="collections">Colecciones</h2>
   <p>
     Se crean colecciones de productos para asignarsela a las vitrinas o carpeta con resultados de búsqueda.<br>
-    <small>Para front, nos interesa el ID y si tiene el Highlight (cucarda)</small>
+    <small>Para front, nos interesa el ID y si tiene el Highlight (cucarda).</small>
   </p>
   <ul>
     <li>En <code>CMS > Product Clusters (Collections) > Editamos una existente</code></li>
@@ -293,5 +302,7 @@
     <li>Si, <code>Searchable</code> está tildado aparecerá una en los resultados de búsqueda</li>
     <li>Es tambien programable el ciclo de vida de la colección, fecha/hora de activación y desactivación</li>
   </ul>
+
+  <br>
 
   <img src="https://github.com/fravega/vtex-tutorial/blob/master/images/collections.png" />
